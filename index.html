@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahasra Cherukupally | Portfolio</title>
+    <!-- Google Fonts: Outfit for a modern, sleek tech vibe -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo"></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#training" class="nav-link">Training</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#certifications" class="nav-link">Certificates</a></li>
+                <li><a href="#activities" class="nav-link">Activities</a></li>
+                <li><a href="#contact" class="nav-btn" style="margin-right: 15px;">Contact</a></li>
+                <li class="nav-socials" style="display: flex; gap: 0.8rem; border-left: 1px solid rgba(255,255,255,0.1); padding-left: 1rem;">
+                    <a href="https://www.linkedin.com/in/sahasra-cherukupally-011592289/" target="_blank" class="nav-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Sahasra1228" target="_blank" class="nav-icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:cherukupallysahasra@gmail.com" target="_blank" class="nav-icon"><i class="fa-solid fa-envelope"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content revealphoto">
+            <p class="greeting">HELLO!</p>
+            <h1 class="title">I'M <span class="highlight">SAHASRA CHERUKUPALLY</span></h1>
+            <h2 class="subtitle">Data Scientist &amp; Machine Learning Engineer</h2>
+            <p class="description">
+                Passionate Computer Science student specializing in Artificial Intelligence, Machine Learning, and Data Science.
+                I love building intelligent systems that turn data into impactful solutions.
+            </p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="My-cv.pdf" class="btn btn-outline" download>Download CV <i class="fa-solid fa-file-arrow-down"></i></a>
+            </div>
+        </div>
+        <div class="hero-visual reveal">
+            <!-- Glass card container -->
+            <div class="hero-profile-card">
+                <!-- Profile Image -->
+                <div class="card-profile-img-container">
+                    <img src="assets/profile-2026.png" alt="Sahasra Profile" class="card-profile-img">
+                </div>
+
+                <!-- 2x2 Stats Grid -->
+                <div class="card-stats-grid">
+                    <div class="card-stat-box">
+                        <span class="stat-title">Projects</span>
+                        <span class="stat-value">3+ Completed</span>
+                    </div>
+                    <div class="card-stat-box">
+                        <span class="stat-title">Dashboards</span>
+                        <span class="stat-value">Power BI & Excel</span>
+                    </div>
+                    <div class="card-stat-box">
+                        <span class="stat-title">Interests</span>
+                        <span class="stat-value">UI Designs</span>
+                    </div>
+                    <div class="card-stat-box">
+                        <span class="stat-title">Focus</span>
+                        <span class="stat-value">Data & ML</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container reveal">
+            <div class="section-heading">
+                <span class="badge">ABOUT ME</span>
+                <h2>Passionate About <span class="highlight">Data & AI</span></h2>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I am a dedicated Computer Science and Engineering student at Lovely Professional University, 
+                        with a strong foundation in Artificial Intelligence, Machine Learning, and Data Science. 
+                        My academic journey is driven by a deep curiosity about how data can be transformed into actionable insights.
+                    </p>
+                    <p>
+                        My goal is to continuously innovate and build solutions that have a meaningful impact, whether through
+                        advanced data analytics dashboards or AI-assisted monitoring systems. I am eager to contribute my skills in
+                        problem-solving and software development to a forward-thinking organization.
+                    </p>
+                    <ul class="about-list">
+                        <li><i class="fa-solid fa-check-circle"></i> AI/ML Enthusiast</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Data Analytics</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Problem Solver</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container reveal">
+            <div class="section-heading text-center">
+                <span class="badge">MY EXPERTISE</span>
+                <h2>Technical <span class="highlight">Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category glass-card">
+                    <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Programming Languages</h3>
+                    <div class="tags">
+                        <span class="tag">C++</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+
+                <!-- AI / Data Science Tools -->
+                <div class="skill-category glass-card">
+                    <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
+                    <h3>AI / Data Science Tools</h3>
+                    <div class="tags">
+                        <span class="tag">Pandas</span>
+                        <span class="tag">NumPy</span>
+                        <span class="tag">Matplotlib</span>
+                        <span class="tag">Seaborn</span>
+                        <span class="tag">Scikit-learn</span>
+                        <span class="tag">TensorFlow</span>
+                    </div>
+                </div>
+
+                <!-- Web Technologies -->
+                <div class="skill-category glass-card">
+                    <div class="card-icon"><i class="fa-solid fa-globe"></i></div>
+                    <h3>Web Technologies</h3>
+                    <div class="tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript (ES6+)</span>
+                        <span class="tag">Responsive Design</span>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skill-category glass-card">
+                    <div class="card-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <h3>Tools &amp; Platforms</h3>
+                    <div class="tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Linux</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">Jupyter Notebook</span>
+                        <span class="tag">Power BI</span>
+                        <span class="tag">MS Excel</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container reveal">
+            <div class="section-heading">
+                <span class="badge">MY WORK</span>
+                <h2>Recent <span class="highlight">Projects</span></h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card">
+                    <div class="project-img-placeholder">
+                        <img src="assets/kids-in-motion.png" alt="Kids in Motion Dashboard preview">
+                    </div>
+                    <div class="project-content">
+                        <h3>Kids in Motion Dashboard</h3>
+                        <p>Analyzed playground program data to identify attendance trends. Performed EDA across periods to uncover behavioral patterns using Python and data visualization libraries.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Seaborn</span>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/Sahasra1228/python" target="_blank" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card">
+                    <div class="project-img-placeholder">
+                        <img src="assets/video-games-sales.png" alt="Video Games Sales Dashboard preview">
+                    </div>
+                    <div class="project-content">
+                        <h3>Video Games Sales Dashboard</h3>
+                        <p>Built an interactive Excel dashboard studying global video game sales across genres, platforms, and regions to understand market behavior and performance patterns.</p>
+                        <div class="project-tech">
+                            <span>MS Excel</span>
+                            <span>Pivot Tables</span>
+                            <span>Data Viz</span>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://drive.google.com/file/d/1eUrPWegnqo-3N7p1EH6cxX-6Uzmat-JN/view" target="_blank" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 (Training Integration equivalent) -->
+                <div class="project-card glass-card">
+                    <div class="project-img-placeholder">
+                        <img src="assets/ai-exam-monitoring.png" alt="AI Exam Monitoring System preview">
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Exam Monitoring System</h3>
+                        <p>Created an AI-assisted system integrating facial recognition and motion detection for real-time online/offline exam monitoring to ensure fairness and reduce malpractice.</p>
+                        <div class="project-tech">
+                            <span>C++</span>
+                            <span>DSA</span>
+                            <span>AI Integration</span>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://drive.google.com/file/d/1I6Q_zwKdMb8GXfCv-Dmyv-60H232Q-H0/view" target="_blank" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training / Internships Section -->
+    <section id="training" class="history-section">
+        <div class="container reveal">
+            <div class="section-heading text-center">
+                <span class="badge">TRAINING</span>
+                <h2>Hands-on <span class="highlight">Training</span></h2>
+            </div>
+            <div class="timeline" style="max-width: 800px; margin: 0 auto;">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">July 2025</span>
+                    <h3>Summer Training - Basics of DSA using C++</h3>
+                    <h4>Lovely Professional University, Punjab</h4>
+                    <p><strong>Role:</strong> Trainee | <strong>Duration:</strong> 4 Weeks</p>
+                    <p><strong>Overview:</strong> Completed an intensive, concept-first program focused on core data structures and algorithms in C++, including arrays, linked lists, stacks, queues, trees, graphs, recursion, and sorting/searching techniques.</p>
+                    <p><strong>What I built:</strong> Designed and implemented multiple problem-solving modules and contributed to an AI-assisted real-time exam monitoring system where DSA concepts were used to efficiently manage candidate data, events, and alerts.</p>
+                    <p><strong>Key Outcomes:</strong> Sharpened problem-solving skills, improved time and space complexity analysis, and gained confidence in writing clean, optimized C++ code for real-world use cases.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="history-section">
+        <div class="container reveal">
+            <div class="section-heading text-center">
+                <span class="badge">ACADEMICS</span>
+                <h2><span class="highlight">Education</span></h2>
+            </div>
+            <div class="timeline" style="max-width: 800px; margin: 0 auto;">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">Aug 2023 - Present</span>
+                    <h3>B.Tech - Computer Science & Engineering</h3>
+                    <h4>Lovely Professional University, Punjab</h4>
+                    <p>CGPA: 6.98</p>
+                    <p><strong>Key Subjects:</strong> Data Structures &amp; Algorithms, Operating Systems, Computer Networks, Database Management Systems, Machine Learning, Artificial Intelligence.</p>
+                </div>
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">April 2022 - March 2023</span>
+                    <h3>Intermediate</h3>
+                    <h4>Narayana Intermediate College, Kuntioor</h4>
+                    <p>Percentage: 97%</p>
+                    <p><strong>Key Subjects:</strong> Mathematics, Physics, Chemistry.</p>
+                </div>
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">April 2020 - March 2021</span>
+                    <h3>Matriculation</h3>
+                    <h4>City Talent High School, Suryapet</h4>
+                    <p>Percentage: 100%</p>
+                    <p><strong>Key Subjects:</strong> Mathematics, Science, Social Studies, English.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="history-section">
+        <div class="container reveal">
+            <div class="section-heading text-center">
+                <span class="badge">ACHIEVEMENTS</span>
+                <h2><span class="highlight">Certificates</span></h2>
+            </div>
+            <div class="timeline" style="max-width: 800px; margin: 0 auto;">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">August 2025</span>
+                    <h3><a href="https://drive.google.com/file/d/1-jCstp2GhZW49wNEpuATHVMuE75nIZAu/view" target="_blank">ChatGPT Prompt Engineering</a></h3>
+                    <h4>Infosys</h4>
+                    <p>Generative AI & LLM specialization.</p>
+                </div>
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">April 2025</span>
+                    <h3><a href="https://drive.google.com/file/d/1K3q3TSSU7zrWMChh3TSfT8SduEj6XOMK/view" target="_blank">Cloud Computing Certification</a></h3>
+                    <h4>IIT Kharagpur (NPTEL)</h4>
+                </div>
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">Sept 2024</span>
+                    <h3><a href="https://drive.google.com/file/d/1042AzLQ7MrkNcYCzHf-maOvWE036uH3M/view" target="_blank">Fundamentals of Network Comm &amp; OS</a></h3>
+                    <h4>Coursera</h4>
+                </div>
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">March 2024</span>
+                    <h3><a href="https://drive.google.com/file/d/10XFq82gHOUdhaRmJmeVbayD7PZUXsqeC/view" target="_blank">Code-A-Haunt 24-hr Hackathon</a></h3>
+                    <h4>Coding Blocks LPU</h4>
+                    <p>Participated in a 24-hour team-based hackathon, building an end-to-end project under time pressure and refining collaboration, problem-solving, and rapid prototyping skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="history-section">
+        <div class="container reveal">
+            <div class="section-heading text-center">
+                <span class="badge">BEYOND ACADEMICS</span>
+                <h2>Extra-Curricular <span class="highlight">Activities</span></h2>
+            </div>
+            <div class="timeline" style="max-width: 800px; margin: 0 auto;">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">April 2025</span>
+                    <h3><a href="https://github.com/Sahasra1228/AI" target="_blank">Patent-Focused Research</a></h3>
+                    <h4>Extra-Curricular</h4>
+                    <p>Conducted research on an AI-based code debugger, exploring innovative solutions for automated error detection.</p>
+                </div>
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">July 2024</span>
+                    <h3><a href="https://drive.google.com/file/d/1mSLEOCBB7ZyxEJ9-vqoEretfSUpueRk9/view" target="_blank">Community Development Project</a></h3>
+                    <h4>Sri Annapurna Charitable Trust</h4>
+                    <p>Completed a 40-hour project under NGO supervision.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container reveal">
+            <div class="contact-card glass-card">
+                <div class="contact-info">
+                    <span class="badge">CONTACT</span>
+                    <h2>Let's Work <span class="highlight">Together</span></h2>
+                    <p>I am available for opportunities in data science, AI, and software development. Feel free to reach out to me.</p>
+                    
+                    <ul class="contact-list">
+                        <li>
+                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="contact-detail">
+                                <span>Email</span>
+                                <a href="mailto:cherukupallysahasra@gmail.com">cherukupallysahasra@gmail.com</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="contact-detail">
+                                <span>Mobile</span>
+                                <a href="tel:+917330929164">+91-7330929164</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="contact-detail">
+                                <span>Location</span>
+                                <p>Suryapet, Telangana, India</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="social-links-contact">
+                        <a href="https://github.com/Sahasra1228" target="_blank" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sahasra-cherukupally-011592289/" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:cherukupallysahasra@gmail.com" target="_blank" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form action="#" method="POST" id="form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fa-solid fa-code"></i> SAHASRA
+                </div>
+                <div class="footer-socials">
+                    <a href="https://github.com/Sahasra1228" target="_blank" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sahasra-cherukupally-011592289/" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:cherukupallysahasra@gmail.com" target="_blank" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <p>&copy; 2026 Sahasra Cherukupally. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
